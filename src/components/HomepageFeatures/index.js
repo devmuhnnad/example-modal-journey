@@ -1,10 +1,9 @@
-import React from 'react';
-import clsx from 'clsx';
-import styles from './styles.module.css';
-import laudspeaker from '@laudspeaker/laudspeaker-js'
+import React, { useEffect } from "react";
+import clsx from "clsx";
+import styles from "./styles.module.css";
 
 //example api key
-laudspeaker.init('YxvkWkSaoBtb7wZynVy1di6M44hpGbQTeEKQPDNi', { apiHost: 'http://18.216.150.246:8080' });
+
 //laudspeaker.init('K7ersuPcKQch874KAw1iCfC4h2AHkpylTLyS7Zbi', { apiHost: 'https://staging-app.laudspeaker.com/api' });
 
 // laudspeaker.identify(
@@ -13,8 +12,8 @@ laudspeaker.init('YxvkWkSaoBtb7wZynVy1di6M44hpGbQTeEKQPDNi', { apiHost: 'http://
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: "Easy to Use",
+    Svg: require("@site/static/img/undraw_docusaurus_mountain.svg").default,
     description: (
       <>
         Docusaurus was designed from the ground up to be easily installed and
@@ -23,8 +22,8 @@ const FeatureList = [
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: "Focus on What Matters",
+    Svg: require("@site/static/img/undraw_docusaurus_tree.svg").default,
     description: (
       <>
         Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
@@ -33,8 +32,8 @@ const FeatureList = [
     ),
   },
   {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    title: "Powered by React",
+    Svg: require("@site/static/img/undraw_docusaurus_react.svg").default,
     description: (
       <>
         Extend or customize your website layout by reusing React. Docusaurus can
@@ -44,9 +43,9 @@ const FeatureList = [
   },
 ];
 
-function Feature({Svg, title, description}) {
+function Feature({ Svg, title, description }) {
   return (
-    <div className={clsx('col col--4')}>
+    <div className={clsx("col col--4")}>
       <div className="text--center">
         <Svg className={styles.featureSvg} role="img" />
       </div>
