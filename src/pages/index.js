@@ -38,7 +38,7 @@ export default function Home() {
     if (ExecutionEnvironment.canUseDOM) {
       const laudspeaker = require("@laudspeaker/laudspeaker-js");
       laudspeaker.init("YxvkWkSaoBtb7wZynVy1di6M44hpGbQTeEKQPDNi", {
-        apiHost: "/laudspeaker",
+        apiHost: "/",
       });
     }
   }, []);
