@@ -1,1 +1,2 @@
 /socket.io/* http://18.216.150.246:8080/socket.io/:splat 200!
+/modals/* http://18.216.150.246:8080/modals/:splat 200!
