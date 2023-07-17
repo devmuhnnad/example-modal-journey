@@ -4,7 +4,7 @@ import styles from './styles.module.css';
 import laudspeaker from '@laudspeaker/laudspeaker-js'
 
 //example api key
-laudspeaker.init('mMyLpMMR7ZK5C7IcpQPucVW28DP2rTRzA4KMoDKe', { apiHost: 'http://18.216.150.246:8080' });
+laudspeaker.init('YxvkWkSaoBtb7wZynVy1di6M44hpGbQTeEKQPDNi', { apiHost: 'http://18.216.150.246:8080' });
 //laudspeaker.init('K7ersuPcKQch874KAw1iCfC4h2AHkpylTLyS7Zbi', { apiHost: 'https://staging-app.laudspeaker.com/api' });
 
 // laudspeaker.identify(
